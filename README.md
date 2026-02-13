@@ -4,6 +4,8 @@ A FastAPI server that wraps NVIDIA's [`nemotron-speech-streaming-en-0.6b`](https
 
 The model uses NeMo's cache-aware FastConformer-RNNT architecture (600M params) and supports true streaming transcription via Server-Sent Events.
 
+It is very fast, easily hitting EOU transcription times below 150ms on an M4 Macbook Pro, and <30ms on capable NVIDIA hardware.
+
 ## Setup
 
 ```bash
