@@ -1,4 +1,4 @@
-# OpenAI-Compatible STT Server for Nemotron Speech Streaming
+# OpenAI-Compatible STT Server for Nemotron Speech ASR
 
 A FastAPI server that wraps NVIDIA's [`nemotron-speech-streaming-en-0.6b`](https://huggingface.co/nvidia/nemotron-speech-streaming-en-0.6b) model behind an OpenAI-compatible `/v1/audio/transcriptions` API.
 
